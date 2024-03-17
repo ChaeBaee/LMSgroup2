@@ -14,12 +14,13 @@ class MenuWindow:
         self.create_gui()
 
     def create_top_frame(self):
+        
         # Top frame for displaying title and time/date
         self.topFrame = Frame(self.master, width=1350, height=70, bg="#e1f8dc", padx=20, relief=SUNKEN, borderwidth=1)
         self.topFrame.pack(side=TOP, fill=X)
 
         # Label for displaying title and icon
-        icon_image = PhotoImage(file='icon.png')
+        icon_image = PhotoImage(file='Library Manager\\icon.png')
         icon_image = icon_image.subsample(10)  # Adjust the size as needed
         self.topFrameLabel = Label(self.topFrame, text=" EARL'S LIBRARY SYSTEM", relief=RAISED, 
                             bg='#e1f8dc', borderwidth=0, image=icon_image, compound=LEFT, font=('Trebuchet MS', 27, 'bold'))
@@ -64,10 +65,10 @@ class MenuWindow:
         interface = self.master  # Creating a Tkinter window
         interface.title("Earl's Library System")
         interface.geometry("1200x625+200+200")  # Setting window dimensions
-        interface.iconbitmap('Library manager\\icon.ico')  # Setting window icon
+        interface.iconbitmap('Library Manager\\icon.ico')  # Setting window icon
 
         # Read and resize the image using OpenCV
-        image = cv2.imread('Library manager\\library.png')
+        image = cv2.imread('Library Manager\\library.png')
         resized_image = cv2.resize(image, (570, 400))  # Adjust the size as needed
 
         # Convert the resized image to bytes
@@ -128,10 +129,12 @@ class MenuWindow:
         frameTotalAuthors.pack(side=RIGHT, anchor=NW, padx=20, pady=20)
 
         # Counting the number of unique authors
-        authors = set()
+        authors = set()  # Initializes an empty set to store unique authors
+        #Iterate through each book in the data dictionary
         for book in self.data.values():
-            authors.add(book['author'])
-        totalAuthors = len(authors)
+                authors.add(book['author'])  # Adds the author of each book to the set of authors
+
+        totalAuthors = len(authors)  # Calculates the total number of unique authors by getting the length of the set
 
         # Label for displaying total number of authors
         totalAuthorsBox = Label (frameTotalAuthors, text=f" Total Authors: {totalAuthors}", bg='#f9ba8e', width=15, height=3, font=('Trebuchet MS', 20, 'bold'))

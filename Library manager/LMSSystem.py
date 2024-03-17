@@ -267,7 +267,7 @@ topFrame = Frame(m_window, width=1350, height=60, bg="#f3e9dc", padx=20, relief=
 topFrame.pack(side=TOP, fill=X)
 
 # Label for displaying title and icon
-icon_image = PhotoImage(file='icon.png')
+icon_image = PhotoImage(file='Library Manager\\icon.png')
 icon_image = icon_image.subsample(10)  # Adjust the size as needed
 topFrameLabel = Label(topFrame, text=" EARL'S LIBRARY SYSTEM", relief=RAISED, 
                             bg='#f3e9dc', borderwidth=0, image=icon_image, compound=LEFT, font=('Trebuchet MS', 27, 'bold'))

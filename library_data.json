@@ -1,14 +1,301 @@
 {
-    "Mein Kampf": {
-        "author": "Hitler",
-        "book_id": "1",
-        "borrower_name": "Twiceee",
-        "available": false,
-        "due_date": "2024-03-10"
+    "The Daughter's Tale": {
+        "author": "Armando Lucas Correa",
+        "book_id": "11112",
+        "borrower_name": "N/A",
+        "available": true
     },
-    "Mein Kampf 2": {
-        "author": "Hitler",
-        "book_id": "2",
+    "The Night Travelers": {
+        "author": "Armando Lucas Correa",
+        "book_id": "11113",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The German Girl": {
+        "author": "Armando Lucas Correa",
+        "book_id": "11116",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Night Ship": {
+        "author": "Jess Kidd",
+        "book_id": "11120",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Winter Spirits": {
+        "author": "Jess Kidd",
+        "book_id": "11121",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Haunting Season": {
+        "author": "Jess Kidd",
+        "book_id": "11122",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Things In Jar": {
+        "author": "Jess Kidd",
+        "book_id": "11124",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Hoarder": {
+        "author": "Jess Kidd",
+        "book_id": "11125",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Himself": {
+        "author": "Jess Kidd",
+        "book_id": "11127",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "All The Missing Girls": {
+        "author": "Megan Miranda",
+        "book_id": "11130",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Last House Guest": {
+        "author": "Megan Miranda",
+        "book_id": "11131",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Only Survivors": {
+        "author": "Megan Miranda",
+        "book_id": "11133",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Perfect Strangers": {
+        "author": "Megan Miranda",
+        "book_id": "11134",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Such A Quiet Place": {
+        "author": "Megan Miranda",
+        "book_id": "11135",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Safest Lies": {
+        "author": "Megan Miranda",
+        "book_id": "11137",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Fragments of the Lost": {
+        "author": "Megan Miranda",
+        "book_id": "11138",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Come Find Me": {
+        "author": "Megan Miranda",
+        "book_id": "11139",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Hysteria": {
+        "author": "Megan Miranda",
+        "book_id": "11140",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Fracture": {
+        "author": "Megan Miranda",
+        "book_id": "11141",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Daughter of Mine": {
+        "author": "Megan Miranda",
+        "book_id": "11142",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Vengeance": {
+        "author": "Megan Miranda",
+        "book_id": "11143",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Soulprint": {
+        "author": "Megan Miranda",
+        "book_id": "11144",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "In Five Years: A Novel": {
+        "author": "Rebecca Serle",
+        "book_id": "11150",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "One Italian Summer: A Novel": {
+        "author": "Rebecca Serle",
+        "book_id": "11151",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Dinner List": {
+        "author": "Rebecca Serle",
+        "book_id": "11152",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "When You Were Mine": {
+        "author": "Rebecca Serle",
+        "book_id": "11153",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Expiration Dates": {
+        "author": "Rebecca Serle",
+        "book_id": "11154",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Edge Of Falling": {
+        "author": "Rebecca Serle",
+        "book_id": "11155",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Truly Madly Famously": {
+        "author": "Rebecca Serle",
+        "book_id": "11156",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Normal People": {
+        "author": "Sally Rooney",
+        "book_id": "11160",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Conversation With Friends": {
+        "author": "Sally Rooney",
+        "book_id": "11161",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Mr. Salary: Faber Stories": {
+        "author": "Sally Rooney",
+        "book_id": "11162",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Two Stories": {
+        "author": "Sally Rooney",
+        "book_id": "11163",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "None of This is True": {
+        "author": "Lisa Jewell",
+        "book_id": "11170",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Family Upstairs": {
+        "author": "Lisa Jewell",
+        "book_id": "11171",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "I Found You": {
+        "author": "Lisa Jewell",
+        "book_id": "11172",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Witness": {
+        "author": "Nora Roberts",
+        "book_id": "11230",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Naked In Death": {
+        "author": "Nora Roberts",
+        "book_id": "11231",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Obsession": {
+        "author": "Nora Roberts",
+        "book_id": "11232",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Dance Upon The Air": {
+        "author": "Nora Roberts",
+        "book_id": "11233",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Sacred Sins": {
+        "author": "Nora Roberts",
+        "book_id": "11234",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Jewels of the Sun": {
+        "author": "Nora Roberts",
+        "book_id": "11235",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "The Sandman": {
+        "author": "Neil Gaiman",
+        "book_id": "11260",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "American Gods": {
+        "author": "Neil Gaiman",
+        "book_id": "11261",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Stardust": {
+        "author": "Neil Gaiman",
+        "book_id": "11262",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Aquaman": {
+        "author": "James Andrew",
+        "book_id": "11263",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "What is Python": {
+        "author": "Paul",
+        "book_id": "11264",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Hello World": {
+        "author": "Luke Gabriel",
+        "book_id": "11265",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Ryomen Sukuna": {
+        "author": "Peter Christian",
+        "book_id": "11266",
+        "borrower_name": "N/A",
+        "available": true
+    },
+    "Understanding the Self": {
+        "author": "Luis Gabriel",
+        "book_id": "11267",
         "borrower_name": "N/A",
         "available": true
     }
